@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 /**
  * FeatureHighlight component - Feature showcase with icon and description
@@ -27,4 +27,4 @@ const FeatureHighlight = ({ feature }) => (
   </div>
 );
 
-export default React.memo(FeatureHighlight);
+export default FeatureHighlight;

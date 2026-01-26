@@ -1,4 +1,3 @@
-import React from 'react';
 
 /**
  * Logo component - Brand identity header
@@ -15,4 +14,4 @@ const Logo = () => (
   </div>
 );
 
-export default React.memo(Logo);
+export default Logo;

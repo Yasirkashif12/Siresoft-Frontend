@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from '../common';
 
 /**
@@ -37,4 +36,4 @@ const PlanCard = ({ plan }) => (
   </article>
 );
 
-export default React.memo(PlanCard);
+export default PlanCard;

@@ -1,10 +1,7 @@
 import React from 'react';
-import { PlanCard } from '../cards';
-import { SUBSCRIPTION_PLANS } from '../../constants';
+import { PlanCard } from '../../cards';
+import { SUBSCRIPTION_PLANS } from '../../../constants';
 
-/**
- * SubscriptionPlans section - Display pricing plans grid
- */
 const SubscriptionPlans = () => (
   <section 
     className="py-8 sm:py-12 md:py-16 lg:py-20 bg-white" 

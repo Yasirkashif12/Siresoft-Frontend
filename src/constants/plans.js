@@ -1,7 +1,3 @@
-/**
- * Subscription plans data
- * Used in: SubscriptionPlans section
- */
 export const SUBSCRIPTION_PLANS = [
   {
     id: 'enterprise',

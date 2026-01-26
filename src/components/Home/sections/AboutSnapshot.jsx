@@ -1,9 +1,5 @@
-import React from 'react';
-import { Button } from '../common';
+import { Button } from '../../common';
 
-/**
- * AboutSnapshot section - Brief company information and team showcase
- */
 const AboutSnapshot = () => (
   <section 
     className="py-8 sm:py-12 md:py-16 lg:py-20 bg-white" 
@@ -44,4 +40,4 @@ const AboutSnapshot = () => (
   </section>
 );
 
-export default React.memo(AboutSnapshot);
+export default AboutSnapshot;

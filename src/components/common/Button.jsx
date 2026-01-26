@@ -25,4 +25,4 @@ const Button = ({ children, variant = 'primary', className = '', ...props }) => 
   );
 };
 
-export default React.memo(Button);
+export default Button;

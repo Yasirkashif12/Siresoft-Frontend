@@ -1,11 +1,13 @@
-import React from 'react';
-import { Button } from '../common';
-import { TemplateCard } from '../cards';
-import { TEMPLATES } from '../../constants';
+import { Button } from '../../common';
+import { TemplateCard } from '../../cards';
 
-/**
- * WebsiteTemplates section - Showcase available website templates
- */
+const TEMPLATES = [
+  { id: "ecommerce", name: "E-Commerce" },
+  { id: "corporate", name: "Corporate" },
+  { id: "portfolio", name: "Portfolio" },
+  { id: "landing-page", name: "Landing Page" },
+];
+
 const WebsiteTemplates = () => (
   <section 
     className="py-8 sm:py-12 md:py-16 lg:py-20 bg-white" 
@@ -30,4 +32,4 @@ const WebsiteTemplates = () => (
   </section>
 );
 
-export default React.memo(WebsiteTemplates);
+export default WebsiteTemplates;

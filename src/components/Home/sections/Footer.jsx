@@ -1,10 +1,33 @@
-import React from 'react';
-import { FooterColumn } from '../cards';
-import { COMPANY_INFO, FOOTER_LINKS, SOCIAL_LINKS } from '../../constants';
+import { FooterColumn } from '../../cards';
 
-/**
- * Footer component - Site footer with company info, links, and contact
- */
+const COMPANY_INFO = {
+  name: 'SireSoft PK',
+  locations: 'Pakistan | USA | UAE',
+  founded: 'Established 2012',
+  phone: '+92 (0) 123 456 7890',
+  email: 'support@siresoft.pk',
+  copyright: '© 2026 SireSoft PK. All rights reserved.'
+};
+
+const FOOTER_LINKS = {
+  services: [
+    { id: 'web-dev', label: 'Web Development' },
+    { id: 'cloud-host', label: 'Cloud Hosting' },
+    { id: 'digital-market', label: 'Digital Marketing' }
+  ],
+  legal: [
+    { id: 'privacy', label: 'Privacy Policy' },
+    { id: 'terms', label: 'Terms of Service' },
+    { id: 'refund', label: 'Refund Policy' }
+  ]
+};
+
+export const SOCIAL_LINKS = [
+  { id: 'social-1', label: 'Social Media 1' },
+  { id: 'social-2', label: 'Social Media 2' },
+  { id: 'social-3', label: 'Social Media 3' }
+];
+
 const Footer = () => (
   <footer className="bg-gray-900 text-white py-8 sm:py-12 md:py-16" role="contentinfo">
     <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
@@ -58,4 +81,4 @@ const Footer = () => (
   </footer>
 );
 
-export default React.memo(Footer);
+export default Footer;

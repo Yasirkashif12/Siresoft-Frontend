@@ -1,32 +1,16 @@
-import React from 'react';
-import {
-  Header,
-  Hero,
-  SubscriptionPlans,
-  ServicesPreview,
-  WebsiteTemplates,
-  WhySireSoft,
-  AboutSnapshot,
-  Footer
-} from './components/sections';
+import Home from './Pages/Home';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-
-/**
- * SireSoftLanding - Main App Component
- * Production-ready SaaS landing page with optimized components and structure
- */
-export default function SireSoftLanding() {
-  return (
-    <div className="min-h-screen bg-white font-sans">
-      <Header />
-      <Hero />
-      <SubscriptionPlans />
-      <ServicesPreview />
-      <WebsiteTemplates />
-      <WhySireSoft />
-      <AboutSnapshot />
-      <Footer />
-    </div>
-  );
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+]);
+function App() {
+  return <RouterProvider router={router} />;
 }
+
+export default App;
+
 

@@ -9,3 +9,8 @@ export { default as WebsiteTemplates } from './WebsiteTemplates';
 export { default as WhySireSoft } from './WhySireSoft';
 export { default as AboutSnapshot } from './AboutSnapshot';
 export { default as Footer } from './Footer';
+export {default as OurProjects} from './OurProjects'
+export { default as BookDemoCTA } from "./BookDemoCTA";
+export { default as OurClients } from "./OurClients";
+
+

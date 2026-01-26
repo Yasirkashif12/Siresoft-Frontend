@@ -1,5 +1,3 @@
-import React from 'react';
-
 /**
  * FooterColumn component - Footer section with links
  * @param {Object} props - Component props
@@ -24,4 +22,4 @@ const FooterColumn = ({ title, links }) => (
   </nav>
 );
 
-export default React.memo(FooterColumn);
+export default FooterColumn;

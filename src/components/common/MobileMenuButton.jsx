@@ -1,5 +1,3 @@
-import React from 'react';
-
 /**
  * MobileMenuButton component - Hamburger toggle for mobile navigation
  * @param {Object} props - Component props
@@ -30,4 +28,4 @@ const MobileMenuButton = ({ isOpen, onClick }) => (
   </button>
 );
 
-export default React.memo(MobileMenuButton);
+export default MobileMenuButton;

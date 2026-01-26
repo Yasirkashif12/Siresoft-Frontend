@@ -1,9 +1,3 @@
-import React from 'react';
-
-/**
- * SearchBar component - Domain search input for header
- * Only visible on extra-large screens
- */
 const SearchBar = () => (
   <div 
     className="hidden xl:flex items-center bg-white border border-gray-300 rounded-full px-3 py-1.5"
@@ -29,4 +23,4 @@ const SearchBar = () => (
   </div>
 );
 
-export default React.memo(SearchBar);
+export default SearchBar;

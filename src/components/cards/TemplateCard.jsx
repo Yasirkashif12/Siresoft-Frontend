@@ -1,5 +1,3 @@
-import React from 'react';
-
 /**
  * TemplateCard component - Website template showcase card
  * @param {Object} props - Component props
@@ -15,4 +13,4 @@ const TemplateCard = ({ id, name }) => (
   </button>
 );
 
-export default React.memo(TemplateCard);
+export default TemplateCard;
