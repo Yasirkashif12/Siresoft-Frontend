@@ -1,5 +1,5 @@
-import { ServiceCard } from '../../cards';
-import { SERVICES } from '../../../constants';
+import { ServiceCard } from "../../cards";
+import { SERVICES } from "../../../constants";
 
 const ServicesPreview = () => (
   <section

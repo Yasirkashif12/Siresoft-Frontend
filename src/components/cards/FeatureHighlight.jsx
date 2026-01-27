@@ -1,5 +1,3 @@
-
-
 /**
  * FeatureHighlight component - Feature showcase with icon and description
  * @param {Object} props - Component props
@@ -10,7 +8,7 @@
  */
 const FeatureHighlight = ({ feature }) => (
   <div className="flex gap-3 sm:gap-4">
-    <div 
+    <div
       className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0"
       aria-hidden="true"
     >
@@ -19,9 +17,13 @@ const FeatureHighlight = ({ feature }) => (
       </span>
     </div>
     <div className="flex-1">
-      <h3 className="font-bold text-gray-900 text-sm sm:text-base">{feature.title}</h3>
+      <h3 className="font-bold text-gray-900 text-sm sm:text-base">
+        {feature.title}
+      </h3>
       {feature.lines.map((line, idx) => (
-        <p key={idx} className="text-xs sm:text-sm text-gray-600 mt-1">{line}</p>
+        <p key={idx} className="text-xs sm:text-sm text-gray-600 mt-1">
+          {line}
+        </p>
       ))}
     </div>
   </div>
