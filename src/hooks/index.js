@@ -1,4 +1,4 @@
 /**
  * Barrel export for hooks
  */
-export { useMobileMenu } from './useMobileMenu';
+export { useMobileMenu } from "./useMobileMenu";

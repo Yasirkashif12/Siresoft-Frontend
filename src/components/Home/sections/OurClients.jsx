@@ -45,7 +45,6 @@ const OurClients = () => {
   return (
     <section className="w-full bg-gray-50 py-16 sm:py-20 lg:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-       
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 text-center mb-12 sm:mb-16 lg:mb-20">
           Our Clients
         </h2>

@@ -10,7 +10,7 @@ const FooterColumn = ({ title, links }) => (
     <ul className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm text-gray-300">
       {links.map((link) => (
         <li key={link.id}>
-          <a 
+          <a
             href={`#${link.id}`}
             className="hover:text-white transition focus:outline-none focus:ring-2 focus:ring-green-600 rounded px-1 py-1 inline-block"
           >
